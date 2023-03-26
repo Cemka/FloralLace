@@ -9,7 +9,7 @@
     android:clipChildren="false"
     >
 
-
+<!-- это верхняя зеленая плашка-->
     <fragment
         android:id="@+id/frament_sec"
         android:name="ru.myitschool.florallace.TopFragment"
@@ -19,6 +19,7 @@
         tools:layout="@layout/top_fragment"
         tools:layout_editor_absoluteX="0dp" />
 
+<!-- Это фрагмент с навигацией -->
 
     <fragment
         android:id="@+id/my_fragment"
@@ -26,8 +27,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout="@layout/my_fragment"
-        tools:layout_editor_absoluteX="-27dp" />
+        tools:layout="@layout/bottom_navigation_view_fragment"
+        tools:layout_editor_absoluteX="0dp" />
 
     <TextView
         android:id="@+id/textView"

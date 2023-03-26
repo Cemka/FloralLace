@@ -11,7 +11,7 @@
     >
 
     <fragment
-        android:id="@+id/frament_sec"
+        android:id="@+id/top_fragment"
         android:name="ru.myitschool.florallace.TopFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,13 +19,24 @@
         tools:layout="@layout/top_fragment"
         tools:layout_editor_absoluteX="0dp" />
 
+    <fragment
+        android:id="@+id/my_fragment"
+        android:name="ru.myitschool.florallace.BottomNavigationViewFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout="@layout/bottom_navigation_view_fragment"
+        tools:layout_editor_absoluteX="0dp" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="164dp"
         android:text="more_activity"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="304dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_fragment" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
