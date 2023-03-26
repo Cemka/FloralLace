@@ -11,22 +11,12 @@
     >
 
     <fragment
-        android:id="@+id/my_fragment"
-        android:name="ru.myitschool.florallace.MyFragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout="@layout/my_fragment"
-        tools:layout_editor_absoluteX="0dp" />
-
-
-    <fragment
         android:id="@+id/frament_sec"
-        android:name="ru.myitschool.florallace.SecondFragment"
+        android:name="ru.myitschool.florallace.TopFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout="@layout/fragment_second"
+        tools:layout="@layout/top_fragment"
         tools:layout_editor_absoluteX="0dp" />
 
     <TextView

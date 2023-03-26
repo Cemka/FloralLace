@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group>
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"
+            app:showAsAction="ifRoom"
+
+            />
+        <!-- TODO: Заменить ic_more в cart на ic_cart -->
+        <item
+            android:id="@+id/cart"
+            android:icon="@drawable/ic_home_normalise"
+            android:title="@string/cart"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/more"
+            android:icon="@drawable/ic_more"
+            android:title="@string/more"
+            app:showAsAction="ifRoom"
+            />
+    </group>
+
+
+</menu>

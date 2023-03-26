@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
     tools:context=".MainActivity"
     android:clipToPadding="false"
     android:clipChildren="false"
@@ -13,22 +12,22 @@
 
     <fragment
         android:id="@+id/frament_sec"
-        android:name="ru.myitschool.florallace.SecondFragment"
+        android:name="ru.myitschool.florallace.TopFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout="@layout/fragment_second"
+        tools:layout="@layout/top_fragment"
         tools:layout_editor_absoluteX="0dp" />
+
 
     <fragment
         android:id="@+id/my_fragment"
-        android:name="ru.myitschool.florallace.MyFragment"
+        android:name="ru.myitschool.florallace.BottomNavigationViewFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout="@layout/my_fragment"
-        tools:layout_editor_absoluteX="0dp" />
-
+        tools:layout_editor_absoluteX="-27dp" />
 
     <TextView
         android:id="@+id/textView"
